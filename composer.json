@@ -1,5 +1,5 @@
 {
-    "name": "infyomlabs/laravel-ui-adminlte",
+    "name": "togsar/laravel-ui-adminlte",
     "description": "Laravel frontend preset for AdminLTE Theme",
     "keywords": [
         "laravel",
@@ -12,12 +12,16 @@
         {
             "name": "Mitul Golakiya",
             "email": "me@mitul.me"
-        }
+        },
+   	{
+	    "name": "Ahmet Yusuf TOĞTAY",
+	    "email": "ahmet.yusuf.togtay@togsar.com"
+	}
     ],
     "require": {
         "php": "^8.1",
-        "illuminate/support": "^10.0",
-        "infyomlabs/laravel-generator-helpers": "^5.0",
+        "illuminate/support": "^11.9",
+        "togsar/laravel-generator-helpers": "dev-master",
         "laravel/ui": "^4.2"
     },
     "autoload": {
@@ -25,6 +29,12 @@
             "InfyOm\\AdminLTEPreset\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/togsar/laravel-generator-helpers.git"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
